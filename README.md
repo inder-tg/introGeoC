@@ -8,4 +8,8 @@ Materiales del curso Introducción a la Geocomputación con R
 
 ## Segunda Clase (Agosto 17, 2023)
 
-- El folder /data/rspatial se encuentra en el Dropbox 
+- El folder /data/rspatial se encuentra en el Dropbox
+
+## Tercera Clase (Agosto 24, 2023)
+
+- Ejercicios 3 (Objetos I: vectores y matrices)
