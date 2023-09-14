@@ -13,3 +13,11 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Tercera Clase (Agosto 24, 2023)
 
 - Ejercicios 3 (Objetos I: vectores y matrices)
+
+## Cuarta Clase (Septiembre 7, 2023)
+
+- Ejercicios 4 (Objetos II: data.frame y list)
+
+## Quinta Clase (Septiembre 14, 2023)
+
+- Crop dataset MOD13Q1.006.250m_16_days_NDVI.linear.tif con shapefile de ANP Cerro Mohinora
