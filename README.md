@@ -21,3 +21,7 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Quinta Clase (Septiembre 14, 2023)
 
 - Crop dataset MOD13Q1.006.250m_16_days_NDVI.linear.tif con shapefile de ANP Cerro Mohinora
+
+## Sexta Clase (Septiembre 21, 2023)
+
+- Mapa interactivo de la distribución espacial de cines en la CDMX
