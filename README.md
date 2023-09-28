@@ -25,3 +25,7 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Sexta Clase (Septiembre 21, 2023)
 
 - Mapa interactivo de la distribución espacial de cines en la CDMX
+
+## Séptima Clase (Septiembre 28, 2023)
+
+- Sintaxis para definir una función, ejemplos y ejercicios
