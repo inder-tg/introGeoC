@@ -29,3 +29,7 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Séptima Clase (Septiembre 28, 2023)
 
 - Sintaxis para definir una función, ejemplos y ejercicios
+
+## Octava Clase (Octubre 6, 2023)
+
+- <- function() más ejemplos; sintaxis ciclo for  
