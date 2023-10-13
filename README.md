@@ -32,4 +32,8 @@ Materiales del curso Introducción a la Geocomputación con R
 
 ## Octava Clase (Octubre 6, 2023)
 
-- <- function() más ejemplos; sintaxis ciclo for  
+- <- function() más ejemplos; sintaxis ciclo for
+
+## Novena Clase (Octubre 12, 2023)
+
+- Ciclo ```for()``` con ejemplos y ejercicios 
