@@ -37,3 +37,7 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Novena Clase (Octubre 12, 2023)
 
 - Ciclo ```for()``` con ejemplos y ejercicios 
+
+## Décima Clase (Octubre 20, 2023)
+
+- Operador ```if()```, ejemplos y ejercicios
