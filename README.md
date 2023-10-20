@@ -8,7 +8,7 @@ Materiales del curso Introducción a la Geocomputación con R
 
 ## Segunda Clase (Agosto 17, 2023)
 
-- El folder /data/rspatial se encuentra en el Dropbox
+- El folder ```/data/rspatial``` se encuentra en el Dropbox
 
 ## Tercera Clase (Agosto 24, 2023)
 
@@ -16,11 +16,11 @@ Materiales del curso Introducción a la Geocomputación con R
 
 ## Cuarta Clase (Septiembre 7, 2023)
 
-- Ejercicios 4 (Objetos II: data.frame y list)
+- Ejercicios 4 (Objetos II: ```data.frame``` y ```list```)
 
 ## Quinta Clase (Septiembre 14, 2023)
 
-- Crop dataset MOD13Q1.006.250m_16_days_NDVI.linear.tif con shapefile de ANP Cerro Mohinora
+- Crop dataset ```MOD13Q1.006.250m_16_days_NDVI.linear.tif``` con shapefile de ANP Cerro Mohinora
 
 ## Sexta Clase (Septiembre 21, 2023)
 
@@ -32,7 +32,7 @@ Materiales del curso Introducción a la Geocomputación con R
 
 ## Octava Clase (Octubre 6, 2023)
 
-- <- function() más ejemplos; sintaxis ciclo for
+- ```<- function()``` más ejemplos; sintaxis ciclo ```for()```
 
 ## Novena Clase (Octubre 12, 2023)
 
