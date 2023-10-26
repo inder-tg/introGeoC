@@ -6,6 +6,12 @@ hola_estudiante <- function(){
   message(paste("Pues, bienvenide", yourName))
 }
 
+rifa_ejercicios <- function(asistentes){
+  ganadore <- sample(x = asistentes, size=1)
+  
+  cat(ganadore, paste("muéstranos tu solución al ejercicio"))
+}
+
 get_coords <- function(orig_coords, table){
   nRow <- length(unlist(orig_coords)) / 2
   
