@@ -55,3 +55,9 @@ get_timeSeries_byClicking <- function(toPlot, df){
   
   list(ts = pixels, coord = toExtract)
 }
+
+
+LoadToEnvironment <- function(RData, env = new.env()){
+  load(RData, env)
+  return(env) 
+}
