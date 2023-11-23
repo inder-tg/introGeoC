@@ -41,3 +41,15 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Décima Clase (Octubre 20, 2023)
 
 - Operador ```if()```, ejemplos y ejercicios
+
+## DécimaPrimera Clase (Octubre 26, 2023)
+
+- Perfiles espectrales; ```extract()```, ```click()```
+
+## DécimaSegunda Clase (Noviembre 9, 2023)
+
+- ```myPrimerShiny()```
+
+## DécimaTercera Clase (Noviembre 16, 2023)
+
+- ```tmap()``` ejemplos y ejercicios
