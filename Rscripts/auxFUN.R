@@ -61,3 +61,39 @@ LoadToEnvironment <- function(RData, env = new.env()){
   load(RData, env)
   return(env) 
 }
+
+missVal_sieve <- function(DIR, amountFiles, totalPixels, startYear, endYear){
+  percentMat <- matrix(nrow=length(DIR), ncol=amountFiles)
+  totalPixels <- totalPixels #36 * 36
+  
+  for(i in seq_len(nrow(percentMat))){
+    TIFs <- mixedsort(list.files(path = DIR[i], full.names = TRUE))
+    for(j in seq_len(ncol(percentMat))){
+      r <- rast(TIFs[j])
+      percentMat[i,j] <- as.numeric(global(r, fun="isNA")) / totalPixels
+    }
+  }
+  
+  row.names(percentMat) <- startYear:endYear # 2000:2022
+  colnames(percentMat) <- month.name
+  
+  # ---
+  
+  percentMat  
+}
+
+spRast_valueCoords <- function(spRaster, na_rm=FALSE){
+  
+  spPoints <- as.points(spRaster, na.rm=na_rm)
+  
+  spValues <- extract(spRaster, spPoints)
+  
+  DIM <- dim(spValues)
+  
+  spRasterToPoints <- as.matrix(spValues[1:DIM[1],2:DIM[2]])
+  
+  spCoords <- crds(spRaster, na.rm=na_rm)
+  
+  list(values=spRasterToPoints, coords=spCoords)  
+}
+
