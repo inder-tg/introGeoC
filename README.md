@@ -2,6 +2,10 @@
 
 Materiales del curso Introducción a la Geocomputación con R
 
+<details>
+<summary> Semestre 2024-I</summary>
+
+
 ## Inicio del repositorio (Agosto 10, 2023)
 
 - Curso para el Posgrado de Geografía de la UNAM, semestre 2024-1 
@@ -53,3 +57,4 @@ Materiales del curso Introducción a la Geocomputación con R
 ## DécimaTercera Clase (Noviembre 16, 2023)
 
 - ```tmap()``` ejemplos y ejercicios
+</details>
