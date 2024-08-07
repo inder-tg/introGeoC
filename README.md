@@ -58,3 +58,15 @@ Materiales del curso Introducción a la Geocomputación con R
 
 - ```tmap()``` ejemplos y ejercicios
 </details>
+
+
+<details>
+
+<summary>Semestre 2025-I</summary>
+
+## Inicio de actividades (Agosto 9, 2024)
+
+- Instalación de R, RStudio y algunos paquetes
+
+
+</details>
