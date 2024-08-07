@@ -1,10 +1,10 @@
 # introGeoC
 
-Materiales del curso Introducción a la Geocomputación con R
+Materiales del Seminario Introducción a la Geocomputación con R <br> 
+impartido para el Posgrado en Geografía de la UNAM
 
 <details>
-<summary> Semestre 2024-I</summary>
-
+<summary>Semestre 2024-I</summary>
 
 ## Inicio del repositorio (Agosto 10, 2023)
 
@@ -67,6 +67,5 @@ Materiales del curso Introducción a la Geocomputación con R
 ## Inicio de actividades (Agosto 9, 2024)
 
 - Instalación de R, RStudio y algunos paquetes
-
 
 </details>
