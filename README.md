@@ -68,4 +68,12 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Instalación de R, RStudio y algunos paquetes
 
+## Segunda Clase (Agosto 15, 2024)
+
+- Clonación del repositorio de GitHub
+
+- El folder ```/data/rspatial``` se agregó al repositorio
+
+- Nota al instructor: el archivo guia_clases.pdf detalla actualizaciones hechas en esta fecha.
+
 </details>
