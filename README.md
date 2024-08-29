@@ -76,4 +76,15 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Nota al instructor: el archivo guia_clases.pdf detalla actualizaciones hechas en esta fecha.
 
+## Tercera Clase (Agosto 22, 2024)
+
+- Objetos I: Vectores y Matrices. Ejemplo para crear objeto ```SpatRaster``` a partir del dataset ```volcano```
+
+## Cuarta Clase (Agosto 29, 2024)
+
+- Objetos II: Data.Frame y Listas. Ejemplo para manejar archivo CSV utilizando ```tidyverse```;
+Ejemplo para reproyectar objeto ```sf``` y que su CRS coincida con el de un ```SpatRaster```.
+
+- Los folders ```/data/ANP_2021``` y ```/data/mohinora``` se agregaron al repositorio
+
 </details>
