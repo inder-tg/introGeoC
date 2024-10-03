@@ -82,9 +82,30 @@ impartido para el Posgrado en Geografía de la UNAM
 
 ## Cuarta Clase (Agosto 29, 2024)
 
-- Objetos II: Data.Frame y Listas. Ejemplo para manejar archivo CSV utilizando ```tidyverse```;
-Ejemplo para reproyectar objeto ```sf``` y que su CRS coincida con el de un ```SpatRaster```.
+- Objetos II: Data.Frame y Listas. 
 
 - Los folders ```/data/ANP_2021``` y ```/data/mohinora``` se agregaron al repositorio
+
+## Quinta Clase (Septiembre 5, 2024)
+
+- Objetos II: Data.Frame y Listas (continuación). Ejemplo para manejar archivo CSV utilizando código base de ```R```.
+
+## Sexta Clase (Septiembre 12, 2024)
+
+- Ejemplo para manejar archivo CSV utilizando ```tidyverse```; Ejemplo para reproyectar objeto ```sf``` y que su CRS coincida con el de un ```SpatRaster```.
+
+- Funciones: definición y ejemplos. 
+
+## Séptima Clase (Septiembre 19, 2024)
+
+- Ubicación del polígono Cerro Mohinora en ANP_2021, posterior exportación de este polígono en formato shapefile. Introducción de eficiencia en tiempo de ejecución de una función.
+
+## Octava Clase (Septiembre 26, 2024)
+
+- Ejemplos de funciones: ```myPlot()``` etc.
+
+## Novena Clase (Octubre 3, 2024)
+
+- Bucle ```for()```. Ejemplos: uso de ```myPlot()``` sobre series de tiempo; aplicación de bandas de calidad (```pixel_reliability```) a capas de ```NDVI``` en Cerro Mohinora.
 
 </details>
