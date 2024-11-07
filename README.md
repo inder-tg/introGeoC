@@ -120,12 +120,12 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Revisión hoja 7 de Ejercicios.
 
-## DécimoTercera Clase (Octubre 31, 2024)
+## DécimaTercera Clase (Octubre 31, 2024)
 
 - Condicionales: ```if()``` y ```ifelse()```.
 
-# DécimoCuarta Clase (Noviembre 7, 2024)
+## DécimoCuarta Clase (Noviembre 7, 2024)
 
-- Generación de ```leaflet()``` con distribución de cines en CDMX.
+- Generación de ```mapview()``` con distribución de cines en CDMX.
 
 </details>
