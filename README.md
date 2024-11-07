@@ -106,6 +106,26 @@ impartido para el Posgrado en Geografía de la UNAM
 
 ## Novena Clase (Octubre 3, 2024)
 
-- Bucle ```for()```. Ejemplos: uso de ```myPlot()``` sobre series de tiempo; aplicación de bandas de calidad (```pixel_reliability```) a capas de ```NDVI``` en Cerro Mohinora.
+- Bucle ```for()```. Ejemplo: uso de ```myPlot()``` sobre series de tiempo.
+
+## Décima Clase (Octubre 10, 2024)
+
+- Bucle ```for()```. Ejemplo: aplicación de bandas de calidad (```pixel_reliability```) a capas de ```NDVI``` en Cerro Mohinora.
+
+## DécimaPrimera Clase (Octubre 17, 2024)
+
+- Bucle ```for()```. Ejemplo: exportando archivos generados en clase anterior.
+
+## DécimaSegunda Clase (Octubre 24, 2024)
+
+- Revisión hoja 7 de Ejercicios.
+
+## DécimoTercera Clase (Octubre 31, 2024)
+
+- Condicionales: ```if()``` y ```ifelse()```.
+
+# DécimoCuarta Clase (Noviembre 7, 2024)
+
+- Generación de ```leaflet()``` con distribución de cines en CDMX.
 
 </details>
