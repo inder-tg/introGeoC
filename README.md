@@ -128,4 +128,18 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Generación de ```mapview()``` con distribución de cines en CDMX.
 
+## DécimoQuinta Clase (Noviembre 14, 2024)
+
+- Mi primer ```shiny```
+</details>
+
+<details>
+
+<summary>Semestre 2026-2</summary>
+
+## Inicio de actividades (Febrero 5, 2026)
+
+- ¡Bienvenida! Instalación de R, RStudio y Git; clonación del repositorio.
+
+
 </details>
