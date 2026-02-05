@@ -139,7 +139,7 @@ impartido para el Posgrado en Geografía de la UNAM
 
 ## Inicio de actividades (Febrero 5, 2026)
 
-- ¡Bienvenida! Instalación de R, RStudio y Git; clonación del repositorio.
+- <span style="color:green">¡Bienvenida!</span> Instalación de R, RStudio, Git y clonación del repositorio.
 
 
 </details>
