@@ -143,4 +143,15 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Instalación de R, RStudio, Git y clonación del repositorio.
 
+## 2da semana (Febrero 12, 2026)
+
+- Objetos I: vectores, matrices
+
+## 3ra semana (Febrero 19, 2026)
+
+- Objetos II: data.frames, list, raster, etc. Ejemplos SpatRaster, mapview & leaflet
+
+## 4ta semana (Febrero 26, 2026)
+
+- Funciones (definicion); sentences (if-else); Bucles (for & while)
 </details>
