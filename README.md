@@ -161,3 +161,8 @@ impartido para el Posgrado en Geografía de la UNAM
 - Funciones (definicion); Bucles (for & while)
 </details>
 
+## 6ta semana (Marzo 12, 2026)
+
+- Revisión de todos los ejercicios pendientes hasta ahora
+
+
