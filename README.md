@@ -154,15 +154,14 @@ impartido para el Posgrado en Geografía de la UNAM
 ## 4ta semana (Febrero 26, 2026)
 
 - sentences (if-else)
-</details>
+
 
 ## 5ta semana (Marzo 5, 2026)
 
 - Funciones (definicion); Bucles (for & while)
-</details>
 
 ## 6ta semana (Marzo 12, 2026)
 
 - Revisión de todos los ejercicios pendientes hasta ahora
-
+</details>
 
