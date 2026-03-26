@@ -155,7 +155,6 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - sentences (if-else)
 
-
 ## 5ta semana (Marzo 5, 2026)
 
 - Funciones (definicion); Bucles (for & while)
@@ -163,5 +162,10 @@ impartido para el Posgrado en Geografía de la UNAM
 ## 6ta semana (Marzo 12, 2026)
 
 - Revisión de todos los ejercicios pendientes hasta ahora
+
+## 7ta semana (Marzo 19, 2026)
+
+- Generación de visualizaciones usando leaflet y tmap. Anteriores ejercicios han sido archivados
+en el folder /arxiv.
 </details>
 
