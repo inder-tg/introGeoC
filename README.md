@@ -167,5 +167,17 @@ impartido para el Posgrado en Geografía de la UNAM
 
 - Generación de visualizaciones usando leaflet y tmap. Anteriores ejercicios han sido archivados
 en el folder /arxiv.
+
+## 8va semana (Marzo 26, 2026)
+
+- tidyverse & tmap: Análisis espacial.
+
+## 9na semana (Abril 2, 2026)
+
+- Vacaciones
+
+## 10ma semana (Abril 9, 2026)
+
+- Solución a ejercicios pendientes: for(), if(), escritura de funciones.
 </details>
 
