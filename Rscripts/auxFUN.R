@@ -97,3 +97,23 @@ spRast_valueCoords <- function(spRaster, na_rm=FALSE){
   list(values=spRasterToPoints, coords=spCoords)  
 }
 
+# --- Added on April 9, 2026
+
+myPlot <- function(RASTER, nombreRASTER){
+  
+  TEMP <- getValues(RASTER)
+  
+  MEAN <- mean(TEMP, na.rm = TRUE)
+  
+  DS <- sd(TEMP, na.rm = TRUE)
+  
+  TITLE <- paste0("ANP: ", nombreRASTER, "\n",
+                  "media: ", round(MEAN,4), "\n",
+                  "desv. est.: ", round(DS,4))
+  
+  plot(RASTER, main=TITLE)
+  
+}
+
+
+
