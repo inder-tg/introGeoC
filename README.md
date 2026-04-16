@@ -179,5 +179,9 @@ en el folder /arxiv.
 ## 10ma semana (Abril 9, 2026)
 
 - Solución a ejercicios pendientes: for(), if(), escritura de funciones.
+
+## 11va semana (Abril 16, 2026)
+
+- Debugging. Manejo de memoria. Código eficiente.
 </details>
 

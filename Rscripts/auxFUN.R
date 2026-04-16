@@ -115,5 +115,24 @@ myPlot <- function(RASTER, nombreRASTER){
   
 }
 
+# --- Added on April 16, 2026
+
+get_pixel_matrix <- function(x,lenPeriod=23){
+  output <- matrix(nrow=length(x)/lenPeriod, ncol=lenPeriod)
+  
+  for(i in seq_len(nrow(output))){
+    output[i,] <- x[((i-1) * lenPeriod + 1):(i * lenPeriod)]
+  }
+  output
+}
+
+climatology <- function(x, lenPeriod){
+  
+  MAT <- get_pixel_matrix(x=x, lenPeriod=lenPeriod)
+  
+  BOXPLOT <- boxplot(MAT, plot=FALSE)
+  
+  list(matrix=MAT, boxplot=BOXPLOT)
+}
 
 
