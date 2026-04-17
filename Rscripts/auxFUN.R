@@ -12,48 +12,85 @@ rifa_ejercicios <- function(asistentes){
   cat(ganadore, paste("muéstranos tu solución al ejercicio"))
 }
 
-get_coords <- function(orig_coords, table){
-  nRow <- length(unlist(orig_coords)) / 2
+# get_coords <- function(orig_coords, table){
+#   nRow <- length(unlist(orig_coords)) / 2
+#   
+#   mat_toPlot <- matrix(as.numeric(unlist(orig_coords)), nrow = nRow)
+#   
+#   dX <- matrix(nrow = nrow(table))
+#   
+#   dY <- matrix(nrow = nrow(table))
+#   
+#   aproxX <- numeric(nRow)
+#   
+#   aproxY <- numeric(nRow)
+#   
+#   dX <- sapply(1:nRow, function(s) abs(table[,1] - mat_toPlot[s,1]))
+#   
+#   aproxX <- sapply(1:nRow, function(s) table[which.min(dX[,s]),1] )
+#   
+#   dY <- sapply(1:nRow, function(s) abs(table[,2] - mat_toPlot[s,2]))
+#   
+#   aproxY <- sapply(1:nRow, function(s) table[which.min(dY[,s]),2] )
+#   
+#   toExtract <- matrix(nrow = nRow, ncol = 2)
+#   
+#   toExtract[,1] <- aproxX
+#   toExtract[,2] <- aproxY
+#   
+# toExtract
+# }
+# 
+# get_timeSeries_byClicking <- function(toPlot, df){
+#   
+#   nRow <- length(unlist(toPlot)) / 2
+# 
+#   toExtract <- get_coords(orig_coords = toPlot, table = df)
+#   
+#   pixels <- matrix(nrow = nRow, ncol = ncol(df)-2)
+#   
+#   for(i in 1:nRow){
+#     pixels[i,] <- df[(df[,1] == toExtract[i,1]) & (df[,2] == toExtract[i,2])][-c(1:2)]
+#   }
+#   
+#   list(ts = pixels, coord = toExtract)
+# }
+
+
+get_timeSeries_byClicking <- function(toPlot, df){
+  nRow <- length(unlist(toPlot)) / 2
   
-  mat_toPlot <- matrix(as.numeric(unlist(orig_coords)), nrow = nRow)
+  mat_toPlot <- matrix(as.numeric(unlist(toPlot)), nrow = nRow)
   
-  dX <- matrix(nrow = nrow(table))
+  dX <- matrix(nrow = nrow(df))
   
-  dY <- matrix(nrow = nrow(table))
+  dY <- matrix(nrow = nrow(df))
   
   aproxX <- numeric(nRow)
   
   aproxY <- numeric(nRow)
   
-  dX <- sapply(1:nRow, function(s) abs(table[,1] - mat_toPlot[s,1]))
+  dX <- sapply(1:nRow, function(s) abs(df[,1] - mat_toPlot[s,1]))
   
-  aproxX <- sapply(1:nRow, function(s) table[which.min(dX[,s]),1] )
+  aproxX <- sapply(1:nRow, function(s) df[which.min(dX[,s]),1] )
   
-  dY <- sapply(1:nRow, function(s) abs(table[,2] - mat_toPlot[s,2]))
+  dY <- sapply(1:nRow, function(s) abs(df[,2] - mat_toPlot[s,2]))
   
-  aproxY <- sapply(1:nRow, function(s) table[which.min(dY[,s]),2] )
+  aproxY <- sapply(1:nRow, function(s) df[which.min(dY[,s]),2] )
   
   toExtract <- matrix(nrow = nRow, ncol = 2)
   
   toExtract[,1] <- aproxX
   toExtract[,2] <- aproxY
+  #
+  IND <- 1:length(df)
+  xTemp <- which(df[,1] == toExtract[1,1])
+  yTemp <- which(df[xTemp,2] == toExtract[1,2])
+  #
+  xyRow <- xTemp[yTemp] # df[xTemp[yTemp],1:2]
   
-toExtract
-}
-
-get_timeSeries_byClicking <- function(toPlot, df){
-  
-  nRow <- length(unlist(toPlot)) / 2
-
-  toExtract <- get_coords(orig_coords = toPlot, table = df)
-  
-  pixels <- matrix(nrow = nRow, ncol = ncol(df)-2)
-  
-  for(i in 1:nRow){
-    pixels[i,] <- df[(df[,1] == toExtract[i,1]) & (df[,2] == toExtract[i,2])][-c(1:2)]
-  }
-  
-  list(ts = pixels, coord = toExtract)
+  list(coord = xyRow)
+  # xyRow
 }
 
 
@@ -111,9 +148,26 @@ myPlot <- function(RASTER, nombreRASTER){
                   "media: ", round(MEAN,4), "\n",
                   "desv. est.: ", round(DS,4))
   
-  plot(RASTER, main=TITLE)
+  plot(RASTER, main=TITLE )
   
 }
+
+
+myPlot2 <- function(x, nombre, ...){
+  
+  # TEMP <- getValues(RASTER)
+  
+  MEAN <- mean(x, na.rm = TRUE)
+  
+  DS <- sd(x, na.rm = TRUE)
+  
+  TITLE <- paste0("ANP: ", nombre, "\n",
+                  "media: ", round(MEAN,4), "\n",
+                  "desv. est.: ", round(DS,4))
+  
+  plot(x, main=TITLE, ...)
+}
+
 
 # --- Added on April 16, 2026
 
